@@ -8,14 +8,14 @@ p {
     color:white;
     font-size: 14px;
     width: 30%;
-    z-index: 4;
+    z-index: 6;
 }
 
 #hero-house1{
 
     background-image: url(img/house-1.jpg);
-    background-size: contain;
-
+    background-size: cover;
+    background-position-y: -300px;
     position: absolute;
     z-index: 5;
     top: 250px;
