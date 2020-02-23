@@ -4,23 +4,70 @@ h1 {
      font-family: 'Bitter', serif;
 }
 
-p {
-    color:white;
-    font-size: 14px;
-    width: 30%;
-    z-index: 6;
+
+
+.standard-margin-section{
+    padding-top: 150px;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    
 }
 
-#hero-house1{
+.grid{
 
-    background-image: url(img/house-1.jpg);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: minmax(350px, auto);
+    
+    grid-gap: 15px;
+
+}
+
+.bloomfield-pic{
+    background-image: url(img/bloomfield.jpeg);
     background-size: cover;
-    background-position-y: -300px;
-    position: absolute;
-    z-index: 5;
-    top: 250px;
-    left: 0px;
+    background-position: right;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
 
-    width: 100vw;
-    height: 500px;
+.interior_1-pic{
+    background-image: url(img/Interior_1.JPG);
+    background-size: cover;
+    background-position: centre;
+    grid-column: 2/4;
+    grid-row: 1/2;
+}
+
+.tors-cove-pic{
+    background-image: url(img/tors_cove.jpeg);
+    background-size: cover;
+    background-position: center;
+    grid-column: 4/5;
+    grid-row: 1/3;
+}
+
+.interior_3-pic{
+    background-image: url(img/Interior_3.JPG);
+    background-size: cover;
+    background-position: center;
+    grid-column: 1/2;
+    grid-row: 2/4;
+}
+
+.northern-bay-pic{
+    background-image: url(img/northern\ bay.jpeg);
+    background-size: cover;
+    background-position: center;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.fox-harbor{
+    background-image: url(img/fox-harbor.jpeg);
+    background-size: cover;
+    background-position: center;
+    grid-column: 3/4;
+    grid-row: 2/3;
 }
