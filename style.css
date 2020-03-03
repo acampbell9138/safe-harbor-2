@@ -37,7 +37,7 @@ h1 {
     background-size: cover;
     background-position: centre;
     grid-column: 2/4;
-    grid-row: 1/2;
+    grid-row: 3/4;
 }
 
 .tors-cove-pic{
@@ -71,3 +71,58 @@ h1 {
     grid-column: 3/4;
     grid-row: 2/3;
 }
+
+.low-point-2{
+    background-image: url(img/lowpoint_2.JPG);
+    background-size: cover;
+    background-position: center;
+    grid-column: 2/4;
+    grid-row: 1/2;
+
+
+}
+
+.interior-2{
+    background-image: url(img/Interior_2.JPG);
+    background-size: cover;
+    background-position: center;
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+.lead-cove{
+    background-image: url(img/lead\ cove.JPG);
+    background-position: center;
+    background-size: cover;
+    grid-column: 1/3;
+    grid-row: 4/6;
+}
+
+.low-point-1{
+    background-image: url(img/lowpoint_1.JPG);
+    background-size: cover;
+    background-size: centre;
+    grid-row: 4/6;
+    grid-column: 3/5;
+}
+.low-point-3{
+    background-image: url(img/lowpoint-3.JPG);
+    background-position: center;
+    background-size: cover;
+    grid-row: 6/7;
+    grid-column: 1/2;
+}
+.new-chelsea{
+    background-image: url(img/New-Chelsea.JPG);
+    background-position: center;
+    background-size: cover;
+    grid-row: 6/7;
+    grid-column: 4/5;
+}
+.new-chelsea-2{
+    background-image: url(img/new-chelsea-2.JPG);
+    background-size: cover;
+    background-position: center;
+    grid-row: 6/7;
+    grid-column: 2/4;
+}
+
