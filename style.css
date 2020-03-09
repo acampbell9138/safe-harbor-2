@@ -24,13 +24,48 @@ h1 {
 
 }
 
-.bloomfield-pic{
+#bloomfield-pic{
     background-image: url(img/bloomfield.jpeg);
     background-size: cover;
     background-position: right;
     grid-column: 1/2;
     grid-row: 1/2;
+    display: block;
+
+    
+
+    animation-name:"bloomfield-pic";
+    animation-duration: 0.6s;
+    animation-delay: 0.1s;
+    animation-timing-function: ease-out;
+    
 }
+
+#bloomfield-text{
+    
+    display: none;
+    
+}
+
+.bloomfield-wrapper:hover bloomfield-pic{
+    
+    @keyframes bloomfield-pic{
+        0%{ 
+            transform: opacity: 0.1;
+        }
+        100%{ 
+            transform: opacity: 1};
+        }
+        
+    }
+    
+
+.bloomfield-wrapper:hover bloomfield-text{
+    display: block;
+    
+}
+
+    
 
 .interior_1-pic{
     background-image: url(img/Interior_1.JPG);
